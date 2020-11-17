@@ -33,7 +33,7 @@ header nav ul {
   
 header nav ul li a {
     padding: 10px 15px;
-    font-size: 2.5vw;
+
     text-transform: uppercase;
     color: #EEEEEE;
 } 
@@ -49,6 +49,7 @@ header nav ul li a {
 
   body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
   }
 
 .hero {
@@ -57,9 +58,18 @@ header nav ul li a {
     justify-content: center;
     align-items: flex-start;
     background-size: cover;
-    height: 600px;
+    height: auto;
     background-position: center;
   }
+
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 
 footer {
